@@ -39,6 +39,24 @@ body{
     max-width: 400px;
 }
 
+.button-link{
+    display: flex;
+    justify-content: center;
+}
+
+.country-link{
+    padding: 15px;
+    background-color: #14A6D7;
+    border: none;
+    cursor: pointer;
+}
+
+.country-link:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
+    0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 500ms;
+}
+
 div h2{
     text-align: center;
 }
