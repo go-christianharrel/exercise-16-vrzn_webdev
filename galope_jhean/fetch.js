@@ -21,7 +21,7 @@ const getData = () => {
     fetch(`https://restcountries.com/v3.1/name/${txtBox}`)
         .then(response => response.json())
         .then(data => {
-            if (data.length > 0) {
+            if (data.length) {
                 const [country] = data;
                 countryData.countryRegion = country?.region;
                 countryData.countryInfo = {
