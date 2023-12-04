@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countries Of The World</title>
+    <link rel="stylesheet" href="country.css" />
   </head>
   <body>
     <div class="container">
@@ -11,7 +12,9 @@
       <label for="country_input">Enter Country Name:</label>
       <div class="input-container">
         <input type="text" id="country_input" placeholder="Philippines" />
-        <button onclick="searchCountry()">Search</button>
+        <button onclick="searchCountry()" id="search_button" disabled>
+          Search
+        </button>
       </div>
     </div>
 
