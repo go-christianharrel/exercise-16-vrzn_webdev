@@ -1,23 +1,23 @@
-:root{
+:root {
     --primary: #CCBEF9;
     --secondary: #14AADB;
     --accent: #14A6D7;
     --bg-color: #FDF1EC;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg-color);
 }
 
-.name{
+.name {
     text-align: center;
     padding-top: 100px;
 }
@@ -39,32 +39,32 @@ body{
     max-width: 400px;
 }
 
-.button-link{
+.button-link {
     display: flex;
     justify-content: center;
 }
 
-.country-link{
+.country-link {
     padding: 15px;
     background-color: #14A6D7;
     border: none;
     cursor: pointer;
 }
 
-.country-link:hover{
+.country-link:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
     0 17px 50px 0 rgba(0,0,0,0.19);
     transition: 500ms;
 }
 
-div h2{
+div h2 {
     text-align: center;
 }
 
 .interest-hobbies,
 .my-works,
 .testimonials,
-.gallery{
+.gallery {
     margin: 150px 20px;
 }
 
@@ -78,7 +78,7 @@ div h2{
 }
 
 .interest-hobbies ul li,
-.my-works ol li, .testimonials ul li{
+.my-works ol li, .testimonials ul li {
     list-style-type: none;
     background-color: var(--primary);
     width: 250px;
@@ -95,57 +95,57 @@ div h2{
     margin-bottom: 20px;
 }
 
-.my-works ol li{
+.my-works ol li {
     cursor: pointer;
 }
 
-.my-works ol li a{
+.my-works ol li a {
     font-weight: 800;
     color: #000;
     text-decoration: none;
 }
 
-.my-works ol li a:hover{
+.my-works ol li a:hover {
     color: var(--secondary);
 }
 
-.my-works ol li p{
+.my-works ol li p {
     padding: 10px;
     text-align: center;
 }
 
-.testimonials ul li{
+.testimonials ul li {
     width: 300px;
     height: 165px;
     display: block;
 }
 
-.avatar{
+.avatar {
     margin: 20px 20px 10px 20px;
 }
 
 .avatar img, 
-.icon img{
+.icon img {
     max-width: 50px;
     border-radius: 50%;
 }
 
-.comment{
+.comment {
     display: flex;
     flex-direction: column;
 }
 
 .comment em,
-.comment p{
+.comment p {
     margin: 0 20px 10px 20px;
 }
 
-.comment p{
+.comment p {
     display: flex;
     justify-content: flex-end;
 }
 
-.gallery .images{
+.gallery .images {
     margin-top: 70px;
     display: flex;
     justify-content: space-evenly;
@@ -153,11 +153,11 @@ div h2{
     flex-wrap: wrap;
 }
 
-.gallery img{
+.gallery img {
     width: 250px;
 }
 
-.goal-container{
+.goal-container {
     display: grid;
     margin: 2rem;
     justify-content: center;
@@ -169,7 +169,7 @@ div h2{
     gap: 1rem;
 }
 
-.goal-logo{
+.goal-logo {
     background-color: var(--primary);
     height: 70px;
     min-width: 70px;
@@ -185,37 +185,37 @@ div h2{
     width: 40px;
 }
 
-.goal{
+.goal {
     display: flex;
 }
 
-.goal-one{
+.goal-one {
     grid-area: goal1;
 }
 
-.goal-two{
+.goal-two {
     grid-area: goal2;
 }
 
-.goal-three{
+.goal-three {
     grid-area: goal3;
 }
 
-.goal-four{
+.goal-four {
     grid-area: goal4;
 }
 
-.goal-details p{
+.goal-details p {
     margin-top: 10px;
     line-height: 1rem;
 }
 
-.comment-section{
+.comment-section {
     margin: 1.3rem;
     padding-bottom: 1rem;
 }
 
-.comment-input{
+.comment-input {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -223,7 +223,7 @@ div h2{
     margin-top: 20px;
 }
 
-.comment-input .details form{
+.comment-input .details form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -232,7 +232,7 @@ div h2{
 }
 
 .comment-input textarea,
-.comment-input input{
+.comment-input input {
     padding: 10px;
     height: 40px;
     width: 200px;
@@ -240,16 +240,16 @@ div h2{
 }
 
 .comment-input input:focus,
-.comment-input textarea:focus{
+.comment-input textarea:focus {
     outline: none;
 }
 
-.comment-input button{
+.comment-input button {
     width: 100px;
     height: 40px;
 }
 
-.main-comment{
+.main-comment {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -258,17 +258,17 @@ div h2{
 }
 
 @media (min-width: 768px) {
-    .goal-container{
+    .goal-container {
         grid-template-areas: 
         "goal1 goal2"
         "goal3 goal4";
     }
 
-    .comment-input textarea{
+    .comment-input textarea {
         width: 400px;
     }
 
-    .comment-input .details form{
+    .comment-input .details form {
         flex-direction: row;
     }
 }
