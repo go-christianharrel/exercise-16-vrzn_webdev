@@ -56,7 +56,7 @@ function searchTheCountry() {
         })
         .then(regionCountries => {
             document.querySelector('.region-title').innerHTML = `
-            <h4>Countries in the Same Region</h4>`;
+                <h4>Countries in the Same Region</h4>`;
             displayRegionCountries(regionCountries);
         })
         .catch(error => {
