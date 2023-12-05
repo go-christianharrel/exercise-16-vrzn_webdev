@@ -56,3 +56,60 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#country_details {
+  margin-bottom: 20px;
+}
+
+#other_countries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.country-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.country-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.flag-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.flag-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+.flag-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
