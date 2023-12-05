@@ -137,11 +137,11 @@ button {
   margin-bottom: 10px;
 }
 
-.hide{
+.hide {
   display: none;
 }
 
 #main_container,
-#result_container{
-  display:flex
+#result_container {
+  display: flex;
 }

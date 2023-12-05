@@ -50,12 +50,12 @@ function displayCountryDetails(country, otherCountries) {
       <p>Language: ${Object.values(country.languages).join(", ")}</p>`;
   
     const otherCountriesContainer = 
-    document.querySelector("#other_countries");
+        document.querySelector("#other_countries");
   
     otherCountriesContainer.classList.remove("hide");
     
     otherCountriesContainer.innerHTML = 
-    "<h2>Other Countries in the Region</h2>";
+        "<h2>Other Countries in the Region</h2>";
   
     otherCountries.forEach((otherCountry) => {
       if (otherCountry.name.common !== undefined) {
