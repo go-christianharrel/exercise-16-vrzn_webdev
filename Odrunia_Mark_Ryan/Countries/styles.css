@@ -17,8 +17,9 @@
   align-items: center;
 }
 
-#searchInput {
+#search_input {
   width: 400px; 
+  height: 18px;
   padding: 8px; 
   border: 1px solid #999; 
   border-radius: 5px; 
