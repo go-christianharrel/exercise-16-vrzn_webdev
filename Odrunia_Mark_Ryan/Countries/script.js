@@ -1,5 +1,5 @@
 async function searchCountry() {
-    const searchInput = document.querySelector('#searchInput').value.toLowerCase();
+    const searchInput = document.querySelector('#search_input').value.toLowerCase();
     
     try {
       const countryResponse = await fetch(`https://restcountries.com/v3.1/name/${searchInput}`);
@@ -21,7 +21,7 @@ async function searchCountry() {
 }
   
 function displayCountryInfo(country) {
-  const countryInfoDiv = document.querySelector('#countryInfo');
+  const countryInfoDiv = document.querySelector('#country_info');
   const flagUrl = country.flags.png;
   
   countryInfoDiv.innerHTML = `
@@ -36,7 +36,7 @@ function displayCountryInfo(country) {
 }
 
 function displayRegionCountries(countries) {
-  const regionCountriesDiv = document.querySelector('#regionCountries');
+  const regionCountriesDiv = document.querySelector('#region_countries');
   regionCountriesDiv.innerHTML = '';
 
   countries.forEach(country => {
