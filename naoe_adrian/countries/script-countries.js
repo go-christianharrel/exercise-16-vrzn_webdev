@@ -34,7 +34,7 @@ function displayErrorMessage(message) {
   detailsContainer.innerHTML =`<p class="error-message">${message}</p>`;
 
     const otherCountriesContainer = 
-    document.querySelector("#other_countries");
+        document.querySelector("#other_countries");
     otherCountriesContainer.classList.add("hide");
 }
 
