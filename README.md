@@ -2,9 +2,9 @@
 
 <img src="https://github.com/PUP-BSIT/exercise-12-vrzn_webdev/blob/ce2ac1a1a8d020b0826d81aaca0a2a22a98d6ffd/img/vrzn.png" alt="VRZN Logo" width="200" height="200">
 
-### :wave: WELCOME TO OUR REPOSITORY! :wave:
+### 👋 WELCOME TO OUR REPOSITORY! 👋
 
-# :rocket: VRZN GROUP :rocket:
+# 🚀 VRZN GROUP 🚀
 
 ### Explore our website on:
 
